@@ -1,0 +1,19 @@
+{
+  "name": "redis-learning-guide",
+  "version": "1.0.0",
+  "description": "A beginner-to-advanced Redis learning guide, verified against Redis 8.10.2 + node-redis 6.3.0",
+  "type": "module",
+  "scripts": {
+    "run": "node examples/",
+    "ch:02": "node examples/02-install-and-redis-cli.mjs"
+  },
+  "keywords": ["redis", "learning", "tutorial"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "redis": "^6.3.0",
+    "@redis/json": "^6.3.0",
+    "@redis/search": "^6.3.0",
+    "@redis/bloom": "^6.3.0"
+  }
+}
